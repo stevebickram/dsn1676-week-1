@@ -13,6 +13,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+    background-color: #E8E5DA;
+    box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -37,8 +39,9 @@ html {
 }
 .masthead { 
     text-align: center;
-    background-color: red;
-    height: 10em;
+    background: transparent url("../images/masthead-bg.png") repeat left center;
+    height: 5em;
+    margin: 2em;
 }
 .element {
     display: inline-block;
@@ -52,4 +55,12 @@ html {
     text-align: center;
     margin: 3em;
 }
-.center-elements 
+
+.center-elements {
+    background-color: #87714F;
+    margin: 2em 1em 0;
+}
+
+.icons {
+    width: 5em;
+}
