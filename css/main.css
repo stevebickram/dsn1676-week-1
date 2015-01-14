@@ -8,25 +8,20 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
- 
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 @media only screen and (min-width: 60em) {
     html { 
         font-size: 110%;
     }
 }
-
 @media only screen and (min-width: 90em) {
     html { 
         font-size: 120%;
@@ -37,10 +32,24 @@ html {
         font-size: 130%;
     }
 }
-
-.masthead {
-    display: inline-block;
+.banner { 
+    background: blue;
 }
-.star {
-    display: inline-block;
+.masthead { 
+    text-align: center;
+    background-color: red;
+    height: 10em;
 }
+.element {
+    display: inline-block;
+    width: 5em;
+}
+.body-image {
+    width: 20em;
+    text-align: center;
+}
+.body-elements {
+    text-align: center;
+    margin: 3em;
+}
+.center-elements 
