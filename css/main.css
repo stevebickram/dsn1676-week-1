@@ -34,33 +34,44 @@ html {
         font-size: 130%;
     }
 }
-.banner { 
-    background: blue;
-}
 .masthead { 
     text-align: center;
     background: transparent url("../images/masthead-bg.png") repeat left center;
-    height: 5em;
-    margin: 2em;
+    margin: 0 1.5em;
+
 }
-.element {
+
+.logo {
+    margin: 0 0.2em 0 0;
+    width: 2em;
+    vertical-align: middle;
+}
+.title {
+    background-color: #E8E5DA;
     display: inline-block;
-    width: 5em;
 }
 .body-image {
     width: 20em;
     text-align: center;
+    border-image: url(../images/border.png) 33 33 33 33 stretch stretch;
+    border-width: 33px 33px 33px 33px;
+    margin: 0 1.5em;
 }
 .body-elements {
     text-align: center;
-    margin: 3em;
 }
-
 .center-elements {
     background-color: #87714F;
-    margin: 2em 1em 0;
+    height: 33em;
+    margin: auto;
 }
-
 .icons {
     width: 5em;
+}
+.body-list {
+    text-align: left;
+    color: white;
+}
+.reward {
+    color: white;
 }
